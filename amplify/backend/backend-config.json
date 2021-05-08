@@ -1,6 +1,6 @@
 {
   "auth": {
-    "chesswebclient8f9ea5e2": {
+    "chess4c8dc275": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],

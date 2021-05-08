@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "chesswebclient8f9ea5e2_identitypool_8f9ea5e2",
+    "identityPoolName": "chess4c8dc275_identitypool_4c8dc275",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "chessw8f9ea5e2",
-    "userPoolName": "chesswebclient8f9ea5e2_userpool_8f9ea5e2",
+    "resourceNameTruncated": "chess4c8dc275",
+    "userPoolName": "chess4c8dc275_userpool_4c8dc275",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "chessw8f9ea5e2_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "chess44c8dc275_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "8f9ea5e2",
-    "resourceName": "chesswebclient8f9ea5e2",
+    "sharedId": "4c8dc275",
+    "resourceName": "chess4c8dc275",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -46,9 +46,6 @@
         ]
     },
     "useDefault": "default",
-    "usernameAttributes": [
-        "email"
-    ],
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,

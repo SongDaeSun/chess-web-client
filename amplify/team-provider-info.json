@@ -1,19 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-chesswebclient-dev-181121-authRole",
-      "UnauthRoleArn": "arn:aws:iam::511451829194:role/amplify-chesswebclient-dev-181121-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::511451829194:role/amplify-chesswebclient-dev-181121-authRole",
+      "AuthRoleName": "amplify-chess-dev-161656-authRole",
+      "UnauthRoleArn": "arn:aws:iam::511451829194:role/amplify-chess-dev-161656-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::511451829194:role/amplify-chess-dev-161656-authRole",
       "Region": "ap-northeast-2",
-      "DeploymentBucketName": "amplify-chesswebclient-dev-181121-deployment",
-      "UnauthRoleName": "amplify-chesswebclient-dev-181121-unauthRole",
-      "StackName": "amplify-chesswebclient-dev-181121",
-      "StackId": "arn:aws:cloudformation:ap-northeast-2:511451829194:stack/amplify-chesswebclient-dev-181121/32bdac30-af14-11eb-96d4-06c8e5db751a",
-      "AmplifyAppId": "darho3t3sec32"
+      "DeploymentBucketName": "amplify-chess-dev-161656-deployment",
+      "UnauthRoleName": "amplify-chess-dev-161656-unauthRole",
+      "StackName": "amplify-chess-dev-161656",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:511451829194:stack/amplify-chess-dev-161656/60ecf2f0-afcd-11eb-883d-0a85c6bad41a",
+      "AmplifyAppId": "d2mcrljtobz9vw"
     },
     "categories": {
       "auth": {
-        "chesswebclient8f9ea5e2": {}
+        "chess4c8dc275": {}
       }
     }
   }

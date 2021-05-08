@@ -1,0 +1,26 @@
+.MainMenu {
+    background-color: #4b5872;
+    min-height: 10em;
+    max-height: 10em;
+
+    min-width: 20em;
+    max-width: 20em;
+    
+    display: table;
+
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.mainButton{
+    text-align: center; 
+    position: relative;
+
+    margin: 2em;
+    border: 0.1em solid black;
+    font-size: calc(10px + 3vmin);
+}
+
+.mainButton:hover{
+  background-color: skyblue;
+}

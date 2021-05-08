@@ -2,13 +2,13 @@
 import React, {Component} from 'react';
 import './Navigator.css';
 
-//import material-ui for beautiful front
+//import redux store
+import store from '../../store';
 
+//import material-ui for beautiful front
 
 //import AWS modules
 import {AmplifySignOut} from '@aws-amplify/ui-react';
-
-
 
 class Navigator extends Component{
     render (){

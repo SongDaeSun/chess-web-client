@@ -4,7 +4,10 @@ import './Main.css';
 
 //import components
 import Navigator from '../../components/navigator/Navigator'
-import MainMenu from '../../components/menu/MainMenu'
+
+//import Page Bodies
+import MenuBody from  '../../page_bodies/menuBody/MenuBody'
+
 
 //import AWS modules
 import Amplify from 'aws-amplify';
@@ -15,7 +18,15 @@ Amplify.configure(awsconfig);
 
 
 class Main extends Component{
-    render (){
+    state = {bodyState:"MENU"}
+
+    selectBody(bodyState){
+        if(bodyState==="MENU"){
+            return (<MenuBody bodyState={bodyState}/>)
+        }
+    }
+
+    render(){
         return (
             <div className="Main">
                 <div className="Main-Header">
@@ -23,7 +34,7 @@ class Main extends Component{
                 </div>
 
                 <div className="Main-Body">
-                    <MainMenu className="MainMenu"/>
+                    {this.selectBody(this.state.bodyState)}
                 </div>
             </div>
         );
